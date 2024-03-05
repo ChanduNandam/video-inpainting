@@ -1,0 +1,36 @@
+
+.background {
+    background-image: url('../Assets/background.jpg'); /* Adjust the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-morph-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.video-container {
+    text-align: center;
+    padding: 20px;
+}
+
+video {
+    width: 80%;
+    max-width: 800px; /* Adjust as needed */
+}
+
+#inpaint-btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
